@@ -59,7 +59,7 @@ class Resultado extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const Home(),
@@ -67,11 +67,11 @@ class Resultado extends StatelessWidget {
                 );
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor:
-                    Colors.blue,
-                
+                backgroundColor: Colors.blue,
               ),
-              child: const Text('Tentar novamente',style: TextStyle(color: Colors.white, fontWeight: FontWeight.w500)),
+              child: const Text('Tentar novamente',
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.w500)),
             ),
           ],
         ),

@@ -60,6 +60,7 @@ class _HomeState extends State<Home> {
         title: const Text('Quizz LApp'),
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        automaticallyImplyLeading: false,
       ),
       body: Container(
         padding: const EdgeInsets.all(10),
