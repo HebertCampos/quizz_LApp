@@ -1,6 +1,10 @@
 # quizz
 
-A new Flutter project.
+A new Flutter project for LApp - IFAL Maceió.
+
+Project: Flutter Exercise for the Course conducted at LApp IFAL
+
+Objective: Create a small quiz using the knowledge acquired so far.
 
 ## Getting Started
 
